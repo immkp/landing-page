@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap");
+
+body {
+  margin: 0;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px 0px 25px;
+  font-family: "Raleway", sans-serif;
+}
+.logo {
+  cursor: pointer;
+  width: 120px;
+}
+.menu-items {
+  margin-left: 70px;
+}
+.menu-items a {
+  text-decoration: none;
+  color: #b9b8b6;
+  margin: 0 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.menu-items a:hover {
+  transition: all 300ms;
+  border-bottom: 4px solid #8071d0;
+  color: black;
+}
+.your-account button {
+  background-color: #ffd8db;
+  color: #6757c4;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px 35px;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  transition: all 500ms;
+  outline: none;
+  margin: 0px 50px;
+}
+.your-account button:hover {
+  background-color: #A389CC;
+  color: #ffffff;
+}
+
+main {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page_heading {
+  font-size: 2.5rem;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+.blue-dot {
+  color: rgb(108, 0, 255);
+  font-size: 2.6rem;
+}
+
+.description {
+  color: #878382;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 1.8;
+}
+.new-account {
+  display: flex;
+  align-items: center;
+}
+.new-account img {
+  margin: 0 8px;
+}
+
+.new-account-btn {
+  background-color: #5243c0;
+  color: #ffffff;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px 35px;
+  border-radius: 23px;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 5px lightgray;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.new-account-btn:hover {
+  background-color: #ffd8db;
+  color: #5243c0;
+}
+.arrow {
+  border-radius: 20px;
+  box-shadow: 0 2px 2px lightgray;
+  cursor: pointer;
+}
+.arrow:hover {
+  transform: scale(1.05);
+}
+
+/*  */
+
+.card {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  height: 40px;
+  width: 400px;
+  background-color: rgb(245, 243, 243);
+  box-shadow: 0 1px 2px rgb(184, 182, 182);
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: white;
+  box-shadow: 0 5px 30px rgb(184, 182, 182);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/*  */
+.left-bottom {
+  margin-top: 40px;
+}
+
+.box-wrapper {
+  position: relative;
+}
+.box {
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.card1:hover .box,
+.card2:hover .box,
+.card3:hover .box,
+.card4:hover .box {
+  display: block;
+}
+
+.tick {
+  width: 30px;
+  margin-left: 10px;
+}
+.details {
+  width: 200px;
+  margin-left: 10px;
+  font-weight: 600;
+  color: #0d0c0b;
+  letter-spacing: -1px;
+}
+.user {
+  width: 30px;
+}
+.date {
+  color: #b5b4b2;
+  padding: 0 20px;
+  letter-spacing: -1px;
+}
+.card-color {
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.colorbar-1 {
+  background-color: #fed7da;
+}
+.colorbar-2 {
+  background-color: #fd6534;
+}
+.colorbar-3 {
+  background-color: #9ed095;
+}
+.colorbar-4 {
+  background-color: #ffe4a0;
+}
+
+/*  */
+.right {
+  padding-top: 20px;
+  width: 40%;
+}
+.right img {
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
